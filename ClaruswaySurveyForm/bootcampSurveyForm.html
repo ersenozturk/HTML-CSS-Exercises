@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway Survey Form</title>
+    <style>
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1 {
+            font-size: 5em;
+            margin-bottom: 0.5rem;
+            font-weight: normal;
+            margin-top: 0rem;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.3rem;
+        }
+        input {
+            padding: 0.4rem 0rem;
+        }
+        label {
+            margin-bottom: 1rem;
+        }
+        submit {
+            border: none;
+            font-size: 1rem;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Bootcamp Survey Form</h1>
+        </header>
+        <p class="description">
+            Thank you for taking the time to help us improve the platform
+        </p>
+    </div>
+    <div>
+        <form action="#">
+            <div class="nameSurnameMail">
+                <label for="name">Name</label><br><br>
+                <input type="text" placeholder="Enter your name" id="name"><br>
+                <label for="surname">Surname</label><br><br>
+                <input type="text" placeholder="Enter your name" id="surname"><br>
+                <label for="email">Email</label><br><br>
+                <input type="email" id="email" placeholder="user@clarusway.com">
+            </div>
+            <div class="down">
+                <p class="role">Which option best describes your current role?</p>
+                <select name="role" id="dropdown">
+                    <option disabled selected value="selectCurrentRole">Select Current Role</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="fullTime">Full Time job</option>
+                    <option value="partTime">Part Time Lob</option>
+                    <option value="Learner">Full Time Learner</option>
+                    <option value="Noprefer">Prefer Not To Say</option>
+                </select>
+            </div>
+            <div class="radio">
+                <p class="recommend">Would you recommend Bootcamp to a friend?</p>
+                <input type="radio" name="recommend" id="Defi">
+                <label for="Maybe">Definitely, Yes</label><br>
+                <input type="radio" name="recommend" id="Maybe" >
+                <label for="Maybe">Maybe</label><br>
+                <input type="radio" name="recommend" id="notSure">
+                <label for="notSure">Not Sure</label><br>
+                <input type="radio" name="recommend" id="no">
+                <label for="no">Definitely, No</label>
+
+            </div>
+            <div class="check">
+                <p class="improved">What would you like to see improved? (Check all that apply)</p>
+                <input type="checkbox" id="front" name="front">
+                <label for="front">Front-end Projects</label><br><br>
+                <input type="checkbox" id="back" name="back">
+                <label for="back">Back-end Projects</label><br><br>
+                <input type="checkbox" id="data" name="data">
+                <label for="data">Data Science</label><br><br>
+                <input type="checkbox" id="add" name="add">
+                <label for="add">Additional Course</label>
+            </div>
+            <div class="down">
+                <p class="favFeature">What is your favorite feature of Bootcamp?</p>
+                <select name="fav" id="drpDwn">
+                    <option disabled selected value="selectAnOption">Select an option</option>
+                    <option value="courses">Courses</option>
+                    <option value="projects">Projects</option>
+                    <option value="communitiy">Communitiy</option>
+                    <option value="mentor">Mentor</option>
+
+                </select>
+            </div>
+            <div class="comment">
+                <p class="comment">Any comments or suggestion?</p>
+                <textarea name="comment" id="comment" cols="30" rows="10" style="resize: none;" placeholder="Enter your comment here...Thanks for your comment..."></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
