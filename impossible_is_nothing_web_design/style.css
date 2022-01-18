@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #dbdbdb;
+}
+/* Part 1 social*/
+#social {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 100%;
+    position: sticky; /* social yukarı sıfır pozisyonuna yapış*/
+    top: 0rem;
+    z-index: 1; /*sayfa içerğnde hç birşy bunn üstüne çıkmasın */
+    font-size: 1rem;
+    text-align: right;
+    padding: 1rem;
+}
+
+#description {
+    float: left;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+
+span {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+#social>i {
+    margin-right: 1rem;
+}
+
+#social>i:hover {
+    opacity: 0.5;
+}
+
+#social a {
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+}
+/* Part 2 container*/
+
+#container {
+    margin: auto;
+    height: auto;
+    width: 80%;
+}
+
+header{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    color: wheat;
+    background-color: black; /* yazı net görülsün diye resim şeffaflaşınca işmize yarayacak*/
+    margin-bottom: 0.5rem;
+}
+
+#headerImage{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    opacity: 0.7;
+}
+
+/* yazıyı merkeze almak için */
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50,-55);
+}
+
+/* Part 3 section */
+
+section {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+    overflow: auto; /* önemli !*/
+}
+
+nav {
+    width: 20%;
+    float: left; /* önemli */
+    margin-top: 0.8rem;
+    height: auto;
+}
+
+nav ul {
+    width: auto;
+    height: 100%; /* ! */
+    margin: 0rem;
+    padding: 0rem;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    height: 3.1rem;
+    line-height: 3.1rem;
+    text-decoration: none;
+    color: black;
+    border-bottom: 0.1rem solid #b4b4b4;
+    padding-left: 2rem;
+    display: block;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: #adadad;
+}
+
+i {
+    margin-right: 0.8rem;
+}
+
+/* part 4 */
+
+main {
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 00.8rem;
+}
+
+.content {
+    width: 48%; /* box sizing yaptık. taşmaması için 48 verdim */
+    display: inline-block;
+    margin-right: 1.2 rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+    margin-bottom: 0.6rem;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    transition: opacity 0.8s;
+
+}
+
+.img:hover{
+    opacity: 0.6; /* yukarıdaki 0.8s ile alakalı */
+}
+
+h5 {
+    margin: 0.8rem;
+    color: dimgray;
+}
+
+.contentText {
+    margin: 0.8rem;
+    color: dimgray;
+    text-indent: 1rem;
+}
+
+.btn:link { /*tıklanmadan link halindeki özellikleri */
+    display: block;
+    width: 10rem;
+    height: 3rem;
+    padding: 0.8rem 0.8rem 0.8rem 2.4rem;
+    background-color: #0071ce;
+    border-radius: 0.3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+16.33
