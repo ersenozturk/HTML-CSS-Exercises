@@ -1,0 +1,72 @@
+* {
+    margin: 0rem;
+}
+
+body {
+    background-image: url(https://miro.medium.com/max/1400/1*xMuIOwjliGUPjkzukeWKfw.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    color: snow;
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-weight: 525;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+margin-top: 0rem;
+margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.main {
+    background-color: slateblue;
+    color: wheat;
+    width: 40%;
+    margin: 2rem auto;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+/* step by step checked in studying process */
+#name, #email, #age, .describe, #current-role, .reco, #def, #maybe, #not, .fav, #fav-feature, .improved, #listening, #reading, #writing, #speaking, .textareaa, #comments{
+    margin-bottom: 1rem;
+}
+
+#name, #email, #age {
+    width: 100%;
+    padding: 0.375rem 0.3rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+#current-role, #fav-feature {
+    width: 100%;
+    padding: 0.375rem 0.3rem;
+    border-radius: 0.3rem;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+#comments {
+    resize: none;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
