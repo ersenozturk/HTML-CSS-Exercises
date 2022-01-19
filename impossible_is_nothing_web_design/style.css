@@ -274,3 +274,22 @@ h1 {
 .reftext {
     text-align: center;
 }
+
+/* *************** gallery ************ */
+
+.galimg {
+    width: 22%;
+    height: 10rem;
+    border-radius: 0.3rem;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+    margin: 0.63rem;
+    transition: all 0.7s; /* sadece opacity değil tüm işlem için all kullandım */
+    object-fit: cover; /*rsimleri küçültmez sbt tutr */
+}
+
+.galimg:hover{
+    opacity: 1;
+    border: 5px solid white;
+    cursor: crosshair;
+}
