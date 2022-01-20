@@ -70,3 +70,17 @@ label{
     border-radius: 0.3rem;
 }
 
+#submitButton {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    color: wheat;
+    background-color: seagreen;
+    font-weight: 525;
+    transition: all 0.3s;
+}
+
+#submitButton:hover{
+    background-color: red;
+    color: black;
+}
