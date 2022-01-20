@@ -293,3 +293,101 @@ h1 {
     border: 5px solid white;
     cursor: crosshair;
 }
+
+
+/* ***************** connect *************** */
+
+iframe{
+    width: 97%;
+    height: 19rem;
+    border-radius: 0.8rem;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+
+.section1 {
+    width: 97%;
+    height: auto;
+    margin: auto;
+    margin-top: 0.8rem;
+    background-color: #f2f2f2;
+    padding: 0.8rem;
+}
+
+.form {
+    width: 49%;
+    float: left;
+    height: 21rem;
+    border: 0.3rem solid #d8d8d8;
+    padding: 0.8rem;
+    margin-right: 0.8rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+
+.col25 {
+    width: 25%;
+    float: left;
+    margin-top: 0.5rem;
+}
+
+.col75 {
+    width: 75%;
+    float: left;
+    margin-top: 0.5rem;
+}
+
+label {
+    padding: 0.1rem 0.8rem 0.8rem 0rem;
+    display: inline-block;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 0.1rem;    
+    border: 1px solid #ccc;
+    border-radius: 0.1rem;
+}
+
+.row::after{    /*burası çok kritik */
+    content: "";
+    clear: both;
+    display: block;
+}
+
+input[type=submit]{
+    background-color: #4caf50;
+    color: white;
+    padding: 0.9rem 1.2rem;
+    border: none;
+    border-radius: 00.3rem;
+    float: right;
+    width: 75%;
+    margin-top: 0.8rem;
+}
+
+.address {
+    width: 49%;
+    float: right;
+    height: 21rem;
+    border: 0.3rem solid #d8d8d8;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, 0.15);
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.span1 {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.8rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-size: 1rem;
+}
