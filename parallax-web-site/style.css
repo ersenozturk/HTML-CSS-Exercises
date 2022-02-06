@@ -1,0 +1,128 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1 rem;
+    font-family: 'Lato',sans-serif;
+    color: #666666;
+    height: 100%; /* önemli */
+
+}
+
+
+            /* image */
+.background--image1 {
+    background-image: url('./images/bg.jpg');
+    min-height: 100%; /*  önemli */
+    /* height: 881px;
+    width: 1263px;
+    background: fixed;
+    display: flex; */
+}
+
+.background--image2 {
+    background-image: url('./images/bg2.jpg');
+    min-height: 80%;    
+}
+
+.background--image3 {
+    background-image: url('./images/bg3.jpg');
+    min-height: 80%;    
+}
+
+.background--image4 {
+    background-image: url('./images/bg4.jpg');
+    min-height: 80%;    
+}
+
+.background--image1,
+.background--image2,
+.background--image3,
+.background--image4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    opacity: 0.7;
+
+    /* to do parallax effect */
+    background-attachment: fixed;
+
+    /* logo için aşg 4 satır yazdım */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.heading-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+
+.heading-container__heading {
+    background-color: black;
+
+    color: white;
+    padding: 2rem ;
+    border-top-left-radius: 2rem ;
+    border-bottom-right-radius: 2rem;
+    outline: .5rem inset purple;
+    outline-offset: 1rem;
+}
+
+.heading-container__logo {
+    width: 30%;
+}
+
+.heading-container__text {
+    background-color: black;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.75rem 0 0.75rem 0 ;
+    text-transform: capitalize;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.2rem;
+}
+
+.section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+
+.section-light {
+    background-color: #f1f1f1;
+    color: #666666;
+    line-height: 1.8rem;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #fff;
+    line-height: 1.8rem;
+}
+
+@media(max-width:768px){
+    .heading-container {
+        font-size: 1.5rem;
+        letter-spacing: 0.5 rem;
+    }
+
+    .background--image1,
+    .background--image2,
+    .background--image3,
+    .background--image4 {
+         background-attachment: scroll !important;
+        }
+        
+}
