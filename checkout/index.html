@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3780ff385.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Checkout
+        </h1>
+    </div>
+    <div class="container">
+        <div class="container__left-side">
+            <form action="">
+                <div class="container__left-side__top">
+                     <h2>Contact Information</h2>
+                     <label for="mail">Email</label><br>
+                     <input type="email" name="mail" id="mail" placeholder="&#9993; Enter your email..."><br>
+                     <label for="tel">Phone</label><br>
+                     <input type="tel" name="tel" id="tel" placeholder="&#128222; Enter your phone...">
+                 </div>
+                 <div class="container__left-side__bottom">
+                     <h2>Shipping adress</h2>
+                     <label for="name">Full name</label><br>
+                     <input type="text" name="name" id="name" placeholder="&#128100; Enter your Full name..."><br>
+                     <label for="adress">Adress</label><br>
+                     <input type="text" name="adress" id="adress" placeholder="&#127968; Enter your adress..."><br>
+                     <label for="city">City</label><br>
+                     <input type="text" name="city" id="city" placeholder="🏙️ Enter your city..."><br>
+                     <div class="deneme">
+                        <div class="container__left-side__bottom__in__left">
+                            <label for="country">Country</label><br>
+                            <select name="" id="country">
+                                <option value="Turkey">&#127760; Turkey</option>
+                                <option value="USA">&#127760; USA</option>
+                                <option value="EN">&#127760; England</option>
+                            </select>
+                        </div>
+                        <div class="container__left-side__bottom__in__right">
+                            <label for="post">Post Code</label><br>
+                            <input type="number" name="post" id="post" placeholder="&#128236; Enter your postal code...">
+                        </div>
+                     </div>
+                     <input type="checkbox" name="check" id="check">
+                     <label for="check">See this information next time</label>
+                     <div class="continue">
+                         <button class="btn">Continue</button>
+                     </div>
+                 </div>
+            </form>
+        </div>
+        <div class="container__right-side">
+            <div class="container__right-side__top">
+                <div class="image container__right-side__top__image">
+                    <img src="./photo1.png" alt="Bag">
+                </div>
+                <div class="container__right-side__top__text">
+                    <h2>Vintage Backlag</h2>
+                    <p><span class="colorr">$54.99</span> <del>$94.99</del></p>
+                    <input type="number" name="" id="vintage-num" min="1" max="1" value="1">
+                </div>
+            </div>
+            <div class="container__right-side__middle">
+                <div class="image container__right-side__middle__image">
+                    <img src="./photo2.png" alt="shoes">
+                </div>
+                <div class="container__right-side__top__text">
+                    <h2>Levi Shoes</h2>
+                    <p><span class="colorr">$74.99</span> <del>$124.99</del></p>
+                    <input type="number" name="" id="levi-num" min="1" max="1" value="1">
+                </div>
+            </div>
+            <div class="container__right-side__bottom">
+                <p class="border-top">Shipping <span class="text-right">$19</span></p>
+                <p class="border-top">Total<span class="text-right">$148.98</span></p>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>
