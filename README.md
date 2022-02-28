@@ -10,3 +10,6 @@ Below are the links of the projects that I have designed with HTML-CSS and that 
 5 --> netflixSurvey -->  https://ersenozturk.github.io/HTML-CSS-Exercises/netflixSurvey/index.html  
 6 --> parallax-web-site --> https://ersenozturk.github.io/HTML-CSS-Exercises/parallax-web-site/index.html  
 7 --> responsive_web(using_flexbox) --> https://ersenozturk.github.io/HTML-CSS-Exercises/responsive_web(using_flexbox)/index.html  
+8 --> checkout --> https://ersenozturk.github.io/HTML-CSS-Exercises/checkout/index.html  
+9 --> sass --> https://ersenozturk.github.io/HTML-CSS-Exercises/sass/index.html  
+10 --> Portfolio-ersenozturk --> https://ersenozturk.github.io/HTML-CSS-Exercises/Portfolio-ersenozturk/index.html  
